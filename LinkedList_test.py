@@ -85,7 +85,7 @@ def test_add_many_delete_middle():
     assert not ll.search(16)
     assert ll.search(17)
 
-def test_delete_empty():
+def test_delete_empty1():
     ll = LinkedList()
     assert ll.delete(1) is None
 
