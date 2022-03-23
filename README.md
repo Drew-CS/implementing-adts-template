@@ -1,4 +1,4 @@
-# Technical HW: Implementing ADTs
+# Project 5: Implementing ADTs
 
 In this assignment we are implementing the ADTs we've been studying 
 so far this semester: Linked Lists, Stacks, & Queues. We **will not** be
