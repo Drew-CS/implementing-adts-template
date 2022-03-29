@@ -2,7 +2,7 @@
 # TO PROBLEM 1: Linked List
 #
 # NAME:         FIXME
-# ASSIGNMENT:   Technical HW: Implementing ADTs
+# ASSIGNMENT:   Project 5: Implementing ADTs
 
 from Node import Node
 
