@@ -2,7 +2,7 @@
 # TO PROBLEM 4: Stack-Array
 #
 # NAME:         FIXME
-# ASSIGNMENT:   Technical HW: Implementing ADTs
+# ASSIGNMENT:   Project 5: Implementing ADTs
 
 class StackArray(object):
     def __init__(self, size=5):
