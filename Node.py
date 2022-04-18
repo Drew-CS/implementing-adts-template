@@ -20,3 +20,11 @@ class Node(object):
 
     def __repr__(self):
         return self.data.__repr__()
+    
+def main():
+	  new_node = Node("first node data")
+	  head = Node("second node data", new_node)
+	  print(head.get_data())
+    
+    
+main()
