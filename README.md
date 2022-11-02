@@ -71,6 +71,8 @@ Given a stack defined by a `top` index and an `array`, please implement the foll
 * `is_empty()`: returns `True` if the stack is empty, or `False` otherwise
 * `clear():` makes the stack empty
 
+When increasing the size of the array, please double it.
+
 ## Problem 5: Queue-Array
 Given a queue defined by a `front` and `tail` index and an `array`, please implement the following methods:
 * `enq(data)`: puts `data` on the tail of the queue
