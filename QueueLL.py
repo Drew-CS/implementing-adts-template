@@ -47,16 +47,16 @@ class QueueLL(object):
 
 
 def main():
-    s = QueueLL()
-    s.print()
-    print("Is empty?", s.is_empty())
+    ql = QueueLL()
+    ql.print()
+    print("Is empty?", ql.is_empty())
     for i in range(1, 7):
-        s.enq(i)
-    s.print()
-    print("Peek:", s.peek())
-    print("Deq: ", s.deq())
-    s.print()
-    print("Is empty?", s.is_empty())
+        ql.enq(i)
+    ql.print()
+    print("Front:   ", ql.get_front())
+    print("Deq:     ", ql.deq())
+    ql.print()
+    print("Is empty?", ql.is_empty())
 
 # Don't run main on import
 if __name__ == "__main__":
