@@ -54,27 +54,27 @@ class QueueArray(object):
 
 
 def main():
-    s = QueueArray()
-    s.print()
-    print("Is empty?", s.is_empty())
+    qa = QueueArray()
+    qa.print()
+    print("Is empty?", qa.is_empty())
     for i in range(1, 4):
-        s.enq(i)
-        #print("Size:", s.size())
-        #s.print()
-    s.print()
-    print("Deq: ", s.deq())
-    print("Deq: ", s.deq())
-    s.print()
+        qa.enq(i)
+        #print("Size:", qa.size())
+        #qa.print()
+    qa.print()
+    print("Deq: ", qa.deq())
+    print("Deq: ", qa.deq())
+    qa.print()
     for i in range(5, 11):
-        s.enq(i)
-        #print("Size:", s.size())
-        #s.print()
-    print("Front:", s.get_front())
-    print("Tail: ", s.get_tail())
-    print("Deq:  ", s.deq())
-    s.print()
-    print("Is empty?", s.is_empty())
-    print("Size:", s.size())
+        qa.enq(i)
+        #print("Size:", qa.size())
+        #qa.print()
+    print("Front:", qa.get_front())
+    print("Tail: ", qa.get_tail())
+    print("Deq:  ", qa.deq())
+    qa.print()
+    print("Is empty?", qa.is_empty())
+    print("Size:", qa.size())
 
 
 # Don't run main on import
